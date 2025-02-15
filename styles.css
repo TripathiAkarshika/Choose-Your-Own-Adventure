@@ -1,0 +1,102 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Game container */
+#game-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Story text styling */
+#story-text {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+/* Choices button styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Image container styling */
+#image-container img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Restart button styling */
+#restart-button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#restart-button:hover {
+    background-color: #e53935;
+}
+
+#addendum-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    text-align: left;
+}
+
+#addendum-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#addendum-container p {
+    line-height: 1.6;
+}
+
+#header-image {
+    width: 20%;
+    max-height: 70px;
+    /* Adjust to desired height */
+    object-fit: cover;
+    /* Ensures the image covers the width nicely */
+}
+
+#header-title {
+    text-align: center;
+    font-family: 'Harry Potter Font', Animales Fantastic;
+    /* Replace with a
+    ctual font if available */
+    font-size: 2rem;
+    /* Adjust font size to fit the style */
+    color: #3e3d3bdd;
+    /* A color that complements the theme */
+    margin-top: 0.5rem;
+}

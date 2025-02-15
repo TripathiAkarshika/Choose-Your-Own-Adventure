@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter: The Enchanted Path</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="game-container">
+        <header>
+            <!-- Title image as a header -->
+            <img src="https://freepngimg.com/save/23748-harry-potter-logo-p
+hotos/900x506" alt="Harry Potter Title" id="header-image">
+            <h1 id="header-title">The Enchanted Path</h1>
+        </header>
+        <div id="story-text"></div>
+        <div id="choices-container"></div>
+        <div id="image-container">
+            <img id="story-image" src="" alt="Story Image">
+        </div>
+        <button id="restart-button" onclick="startGame()">Restart Game</but ton>
+    </div>
+    <div id="addendum-container">
+        <h2>Project Addendum</h2>
+        <p>
+            <strong>Process and Creative Choices:</strong><br>
+            Based on the plot, I developed the “Harry Potter: The Enchanted
+            Path” game and mapped its diverse endings. The structure of the game was cr
+            eated with HTML, styling with CSS, and interactivity with JavaScript. I use
+            d JavaScript to control the narration with objects representing each stage,
+            making it simple to expand the story.<br><br>
+            <strong>Challenges and Solutions:</strong><br>
+            1. <strong>Choice Consistency:</strong> I used an object mappin
+            g system to ensure correct story flow and easy debugging.<br>
+            2. <strong>Dynamic Image Updates:</strong> I updated images by
+            modifying the `src` attribute in JavaScript, ensuring proper scaling across
+            devices.<br>
+            3. <strong>Restart Functionality:</strong> I implemented a rest
+            art button by resetting the game state with the `startGame` function.<br><b r>
+                <strong>Insights:</strong><br>
+                This project emphasized the importance of modular code and real
+                -time testing. Using objects for story stages made scaling and debugging ea
+                sier, and handling dynamic content efficiently was key.<br><br>
+                Overall, it was a great opportunity to apply basic web developm
+                ent skills and create an interactive user experience.
+        </p>
+    </div>
+    <footer>
+        <p>Last updated:
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+        var x = document.lastModified;
+        document.getElementById('lastModified').textContent = x;
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
